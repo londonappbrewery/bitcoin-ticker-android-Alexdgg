@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.londonappbrewery.bitcointicker"
+<manifest package="com.alex.cryptoconversion"
           xmlns:android="http://schemas.android.com/apk/res/android">
-
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +19,20 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
+        </activity>
+        
+        <activity android:name=".TrackerActivity"
+
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name=".InvestCalculator"
+
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
 
         </activity>
 
