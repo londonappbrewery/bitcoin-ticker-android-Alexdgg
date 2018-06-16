@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
+import org.droidparts.activity.support.v7.AppCompatActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -19,7 +20,7 @@ import java.text.NumberFormat;
 import cz.msebera.android.httpclient.Header;
 
 
-public class InvestCalculator extends Activity {
+public class InvestCalculator extends AppCompatActivity {
 
     private final String BTC_URL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCRON";
     private final String XRP_URL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/XRPRON";

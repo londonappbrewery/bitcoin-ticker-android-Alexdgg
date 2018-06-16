@@ -17,13 +17,14 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 
+import org.droidparts.activity.support.v7.AppCompatActivity;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 
 
-public class TrackerActivity extends Activity {
+public class TrackerActivity extends AppCompatActivity {
 
    // BarChart barChart;
    // ArrayList<String> dates;
